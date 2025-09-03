@@ -105,7 +105,9 @@ Heart-Disease-Prediction/
 - **Streamlit UI Screenshot:**  
   ![App Screenshot](Images/streamlit_app_screenshot.png)  
 
-- **Pickle Model File:** `trained_model.sav`
+- **Pickle Model File Screenshot:**
+  
+  ![Screenshot of code](Outputs/trained_model.sav_image.png)
 
 ---
 
@@ -165,4 +167,5 @@ Aspiring Data Scientist
 🔗 LinkedIn: [Your LinkedIn Profile]
 
 🔗 GitHub: [Your GitHub Profile]
+
 
