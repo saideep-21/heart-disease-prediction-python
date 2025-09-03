@@ -1,4 +1,5 @@
 from sklearn.preprocessing import StandardScaler
+import numpy as np
 
 class Logistic_Regression():
     def __init__(self, learning_rate, no_of_iterations):
@@ -48,4 +49,5 @@ class Logistic_Regression():
         # Prediction using sigmoid
         Y_pred = 1 / (1 + np.exp(-(X.dot(self.w) + self.b)))
         Y_pred = np.where(Y_pred > 0.5, 1, 0)   # Convert probabilities to 0/1
+
         return Y_pred
