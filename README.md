@@ -5,42 +5,43 @@ An end-to-end project implementing **logistic regression from scratch** for pred
 ---
 
 ## 📑 Table of Contents
-- [Overview](#overview)  
-- [Problem Statement](#problem-statement)  
--  [Dataset](#dataset)  
-- [Project Structure](#project-structure)  
-- [Tools & Technologies](#tools--technologies)  
-- [Methods](#methods)  
-- [Key Insights](#key-insights)  
-- [Model & Outputs](#model--outputs)  
-- [How to Run This Project](#how-to-run-this-project)  
-- [Results & Conclusion](#results--conclusion)  
-- [Future Work](#future-work)  
-- [Author & Contact](#author--contact)  
+- <a href="#overview">Overview</a>
+- <a href="#problem-statement">Problem Statement</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#project-structure">Project Structure</a>
+- <a href="#tools--technologies">Tools & Technologies</a>
+- <a href="#methods">Methods</a>
+- <a href="#key-insights">Key Insights</a>
+- <a href="#model--outputs">Model & Outputs</a>
+- <a href="#how-to-run-this-project">How to Run This Project</a>
+- <a href="#results--conclusion">Results & Conclusion</a>
+- <a href="#future-work">Future Work</a>
+- <a href="#author--contact">Author & Contact</a> 
 
 ---
+<h2><a class="anchor" id="overview"></a>📖 Overview</h2>
 
-## 📖 Overview
 This project aims to predict whether a person has heart disease based on clinical features such as age, cholesterol level, blood pressure, and more.  
 The workflow includes **data preprocessing, logistic regression (implemented from scratch), model evaluation, and deployment**.
 
 ---
+<h2><a class="anchor" id="problem-statement"></a>❓ Problem Statement</h2>
 
-## ❓ Problem Statement
 - Heart disease is one of the leading causes of death worldwide.  
 - Accurate and early prediction of heart disease can assist healthcare professionals in decision-making and treatment planning.  
 - This project builds a **predictive ML model from scratch** and provides a **user-friendly web interface** for predictions.
 
 ---
+<h2><a class="anchor" id="dataset"></a>📊 Dataset</h2>
 
-## 📊 Dataset
 - **Source:** UCI Heart Disease Dataset (via Kaggle/online repositories)  
 - **Features:**  
   - Age, Sex, Chest Pain Type, Resting BP, Cholesterol, Fasting Blood Sugar, Resting ECG, Max Heart Rate, Exercise Angina, Oldpeak, Slope, Number of vessels, Thalassemia  
 - **Target:** `0 = No Disease`, `1 = Disease`
 
 ---
-## 📂 Project Structure
+<h2><a class="anchor" id="project-structure"></a>📂 Project Structure</h2>
+
 ```
 Heart-Disease-Prediction/
 │── Notebooks/
@@ -60,16 +61,16 @@ Heart-Disease-Prediction/
 │── README.md # Project documentation
 ```
 ---
+<h2><a class="anchor" id="tools--technologies"></a>🛠 Tools & Technologies</h2>
 
-## 🛠 Tools & Technologies
 - **Languages:** Python  
 - **Libraries:** NumPy, Pandas, Matplotlib, scikit-learn, Streamlit  
 - **Deployment:** Streamlit Web App  
 - **Version Control:** Git & GitHub
 
 ---
+<h2><a class="anchor" id="methods"></a>🔎 Methods</h2>
 
-## 🔎 Methods
 1. **Data Loading & Exploration**  
    - Loaded dataset, checked data types, null values, and basic distributions.  
 
@@ -89,16 +90,16 @@ Heart-Disease-Prediction/
    - Built **Streamlit web app** for real-time predictions.  
 
 ---
+<h2><a class="anchor" id="key-insights"></a>📈 Key Insights</h2>
 
-## 📈 Key Insights
 - Training Accuracy: **85%**  
 - Test Accuracy: **80%**  
 - Cost function plot shows **smooth convergence**, indicating stable training.  
 - Features such as **age, chest pain type, cholesterol, and max heart rate** strongly influenced predictions.  
 
 ---
+<h2><a class="anchor" id="model--outputs"></a>🤖 Model & Outputs</h2>
 
-## 🤖 Model & Outputs
 - **Cost Function Trend:**  
   ![Cost Function](Outputs/cost_function_plot.png)  
 
@@ -110,8 +111,7 @@ Heart-Disease-Prediction/
   ![Screenshot of code](Outputs/trained_model.sav_image.png)
 
 ---
-
-## 🚀 How to Run This Project
+<h2><a class="anchor" id="how-to-run-this-project"></a>🚀 How to Run This Project</h2>
 
 ### 🔧 Step 1: Clone Repository
 
@@ -139,16 +139,14 @@ streamlit run Scripts/streamlit_app.py
 ```
 
 --- 
-
-### ✅ Results & Conclusion
+<h2><a class="anchor" id="results--conclusion"></a>✅ Results & Conclusion</h2>
 
 - Successfully implemented logistic regression from scratch with competitive accuracy.
 - Built an interactive web app for real-time predictions.
 - Demonstrated the importance of data preprocessing and gradient descent optimization.
 
 ---
-
-### 🔮 Future Work
+<h2><a class="anchor" id="future-work"></a>🔮 Future Work</h2>
 
 - Improve accuracy with advanced models (Random Forest, XGBoost, Neural Nets).
 - Hyperparameter tuning.
@@ -156,8 +154,8 @@ streamlit run Scripts/streamlit_app.py
 - Enhanced UI with better visualizations and patient risk scoring.
 
 ---
+<h2><a class="anchor" id="author--contact"></a>👨‍💻 Author & Contact</h2>
 
-### 👨‍💻 Author & Contact
 **Golla Sai Deep**
 
 Aspiring Data Scientist
@@ -167,5 +165,6 @@ Aspiring Data Scientist
 🔗 LinkedIn: [Your LinkedIn Profile]
 
 🔗 GitHub: [Your GitHub Profile]
+
 
 
