@@ -156,15 +156,16 @@ streamlit run Scripts/streamlit_app.py
 ---
 <h2><a class="anchor" id="author--contact"></a>👨‍💻 Author & Contact</h2>
 
-**Golla Sai Deep**
+👤 **Golla Sai Deep**
 
 Aspiring Data Scientist
 
 📧 Email: saideepcct@gmail.com
 
-🔗 LinkedIn: [Your LinkedIn Profile]
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/saideep-21)
 
-🔗 GitHub: [Your GitHub Profile]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/saideep04)
+
 
 
 
